@@ -1,0 +1,39 @@
+.contact-band{
+    margin:0 clamp(1.5rem,6vw,5rem);
+    background:#141412;
+    border:1px solid #2A2A27;
+    border-radius:8px;
+    padding:clamp(3rem,8vw,5.5rem);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:2rem;
+    flex-wrap:wrap;
+  }
+  .contact-band h2{
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    font-size:clamp(1.8rem,4vw,2.8rem);
+    max-width:16ch;
+    line-height:1.15;
+    color:#F5F1E8;
+  }
+  .contact-band h2 em{font-style:italic;color:#C9A227;}
+  .contact-band .cta{
+    display:inline-flex;align-items:center;gap:.6rem;background:#C9A227;color:#0B0B0A;
+    padding:.95rem 1.7rem;font-size:.85rem;letter-spacing:.04em;border-radius:2px;
+    white-space:nowrap;font-weight:600;transition:transform .25s ease, background .25s ease;
+  }
+  .contact-band .cta:hover{background:#F5F1E8;transform:translateY(-2px);}
+  
+  .site-footer{
+    padding:4rem clamp(1.5rem,6vw,5rem) 2.5rem;
+    text-align:center;
+  }
+  .footer-logo{display:flex;align-items:center;justify-content:center;margin-bottom:1rem;}
+.footer-logo-img{height:2.8rem;width:auto;object-fit:contain;}
+  .footer-meta{font-size:.8rem;color:#8A8579;margin-bottom:2rem;}
+  .footer-links{display:flex;justify-content:center;gap:1.6rem;font-size:.82rem;color:#B8B3A8;margin-bottom:1.5rem;flex-wrap:wrap;}
+  .footer-links a{color:#B8B3A8;}
+  .footer-links a:hover{color:#C9A227;}
+  .footer-copyright{font-size:.72rem;color:#4A4A45;}

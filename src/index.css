@@ -1,0 +1,5 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body { font-family:'Inter', sans-serif; background:#0B0B0A; color:#F5F1E8; overflow-x:hidden; }
+::selection { background:#C9A227; color:#0B0B0A; }
+a { text-decoration:none; color:inherit; }
