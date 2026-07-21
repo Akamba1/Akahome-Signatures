@@ -9,7 +9,7 @@ function About() {
             or for video:
             <video src="/videos/joshua-about.mp4" autoPlay muted loop playsInline className="about-img" />
         */}
-        <span className="about-placeholder">Photo / video of Joshua</span>
+        <span className="about-placeholder">Photo</span>
       </div>
 
       <div className="about-content">
