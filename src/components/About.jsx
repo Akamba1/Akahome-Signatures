@@ -13,7 +13,7 @@ function About() {
       </div>
 
       <div className="about-content">
-        <span className="about-label">The Tailor</span>
+        <span className="about-label">About The Tailor</span>
         <h2>Built by hand,<br/><span className="it">worn</span> with intent.</h2>
         <p>
           Akahome Signatures is the work of Joshua Akahome-Yesufu — every
