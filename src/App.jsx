@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Strip from './components/Strip'
 import Showreel from './components/Showreel'
 import Craft from './components/Craft'
+import About from './components/About'
 import Dossier from './components/Dossier'
 import Collab from './components/Collab'
 import Testimonials from './components/Testimonials'
@@ -16,6 +17,7 @@ function App() {
       <Strip />
       <Showreel />
       <Craft />
+      <About />
       <Dossier />
       <Collab />
       <Testimonials />
