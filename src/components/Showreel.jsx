@@ -4,9 +4,9 @@ function Showreel() {
   return (
     <section className="showreel">
       <span className="showreel-label">In Motion</span>
-      <h2>Every style, one reel.</h2>
+      <h2>Every style, one frame.</h2>
       <div className="showreel-frame">
-        <video src="/videos/showreel.mp4" autoPlay muted loop playsInline className="showreel-video" />
+        <img src="/images/showreel.jpg" alt="Akahome Signatures styles" className="showreel-img" />
       </div>
     </section>
   )
