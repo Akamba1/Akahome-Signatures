@@ -11,9 +11,6 @@ function Collab() {
       </div>
       <h2 className="collab-title">Akahome Signatures <span className="x">×</span> Oba Ade</h2>
       <p className="collab-text">For looks that call for it, Akahome Signatures partners with <span className="collab-name">Oba Ade</span> — trousers and shoes built to match the same standard: nothing off the shelf, everything made to complete the look.</p>
-      <div className="collab-video">
-        <img src="/images/collab.jpg" alt="Akahome Signatures x Oba Ade" className="collab-video-el" />
-      </div>
       <h3 className="samples-title">Sample Looks</h3>
       <div className="collab-samples">
         <div className="sample-slot"><img src="/images/collab-look-1.jpg" alt="Look 1" className="sample-img" /></div>

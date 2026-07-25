@@ -4,12 +4,7 @@ function About() {
   return (
     <section className="about" id="about">
       <div className="about-media">
-        {/* Once you have his photo or video, replace this div's content:
-            <img src="/images/joshua-about.jpg" alt="Joshua Akahome-Yesufu" className="about-img" />
-            or for video:
-            <video src="/videos/joshua-about.mp4" autoPlay muted loop playsInline className="about-img" />
-        */}
-        <span className="about-placeholder">Photo</span>
+        <img src="/images/joshua-about.jpg" alt="Joshua Akahome-Yesufu" className="about-img" />
       </div>
 
       <div className="about-content">
