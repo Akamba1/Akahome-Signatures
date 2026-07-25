@@ -4,7 +4,8 @@ function Footer() {
   return (
     <>
       <section className="contact-band" id="contact">
-        <h2>Ready for something <em>made</em> to measure?</h2>
+      <h2>Have your own <em>design</em> or idea?</h2>
+      <p className="contact-band-sub">Book a fitting and let's talk.</p>
         
         <a
           href="https://wa.me/2347046913739?text=Hi%20Akahome%20Signatures%2C%20I%27d%20like%20to%20book%20a%20fitting."

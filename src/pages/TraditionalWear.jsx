@@ -21,9 +21,9 @@ function TraditionalWear() {
           <h2 className="subsection-title">{section.title}</h2>
           <div className="category-gallery">
             {[1, 2, 3].map((n) => (
-              <div className="category-item" key={n}>
+              <a href={`https://wa.me/2347046913739?text=Hello%20Akahome%20Signatures%2C%20I%20like%20this%20${section.title}%20design%3A%20https%3A%2F%2Fakahomesignatures-nine.vercel.app%2Fimages%2F${section.prefix}-${n}.jpg%20-%20Can%20I%20sew%20this%3F`} target="_blank" rel="noopener noreferrer" className="category-item" key={n}>
                 <img src={`/images/${section.prefix}-${n}.jpg`} alt={`${section.title} ${n}`} />
-              </div>
+              </a>
             ))}
           </div>
         </div>

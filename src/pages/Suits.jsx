@@ -11,9 +11,9 @@ function Suits() {
       </div>
       <div className="category-gallery">
         {images.map((n) => (
-          <div className="category-item" key={n}>
+          <a href={`https://wa.me/2347046913739?text=Hello%20Akahome%20Signatures%2C%20I%20like%20this%20suit%20design%3A%20https%3A%2F%2Fakahomesignatures-nine.vercel.app%2Fimages%2Fsuits-${n}.jpg%20-%20Can%20I%20sew%20this%3F`} target="_blank" rel="noopener noreferrer" className="category-item" key={n}>
             <img src={`/images/suits-${n}.jpg`} alt={`Suit ${n}`} />
-          </div>
+          </a>
         ))}
       </div>
     </>
